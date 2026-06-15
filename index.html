@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Faunatuna | Gelato Artigianale</title>
+    <meta
+      name="description"
+      content="Faunatuna, gelato artigianale ispirato alla natura, trasformato in una pagina web strutturata e modificabile."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/faunatuna-watermark.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css?v=8" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#home" aria-label="Faunatuna home">
+          <img
+            class="brand__mark"
+            src="./assets/images/faunatuna-watermark.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="brand__text">
+            <strong>Faunatuna</strong>
+            <small>Gelato Artigianale</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#story">Filosofia</a>
+          <a href="#ingredients">Ingredienti</a>
+          <a href="#flavors">Gusti</a>
+          <a href="#experience">Esperienza</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contatti</a>
+        </nav>
+      </header>
+
+      <main class="page">
+        <section class="hero section reveal" id="home">
+          <div class="hero__inner">
+            <div class="hero__copy">
+              <h1>Faunatuna</h1>
+              <p class="hero__subtitle">Gelato Artigianale</p>
+              <p class="hero__lede">
+                Un gelato naturale, puro e autentico, ispirato all’equilibrio
+                tra uomo e natura.
+              </p>
+              <div class="hero__actions">
+                <a class="button button--solid" href="#story">Scopri la filosofia</a>
+                <a class="button button--ghost" href="#flavors">Esplora i gusti</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="story section reveal" id="story">
+          <div class="section-kicker">LA NOSTRA STORIA</div>
+          <div class="section-title">
+            <h2>La natura diventa gusto.</h2>
+          </div>
+          <div class="story__layout">
+            <div class="story__copy">
+              <p>
+                Il concetto di Faunatuna deriva dal Fauno, una figura mitica che
+                simboleggia la natura e la forza vitale. Il brand racconta la
+                connessione tra uomo e natura attraverso un gelato artigianale
+                lento, preciso e rispettoso dell’identità di ogni ingrediente.
+              </p>
+              <p>
+                Ogni ricetta nasce da un gesto misurato: latte pulito, frutta di
+                stagione, tostature leggere, creme sobrie e un’idea di piacere
+                che non copre mai la materia prima.
+              </p>
+            </div>
+            <figure class="story__visual image-frame">
+              <img
+                src="./assets/generated/story-visual.jpg"
+                alt="Fauno mitologico che suona il flauto"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="ingredients section reveal" id="ingredients">
+          <div class="section-kicker section-kicker--center">INGREDIENTI</div>
+          <div class="section-title section-title--center">
+            <h2>Ingredienti veri, lavorazione lenta.</h2>
+          </div>
+          <div
+            class="card-grid card-grid--four"
+            data-component="ingredients"
+            aria-label="Ingredienti"
+          ></div>
+        </section>
+
+        <section class="flavors section reveal" id="flavors">
+          <div class="section-kicker section-kicker--center">I NOSTRI GUSTI</div>
+          <div class="section-title section-title--center">
+            <h2>Gusti ispirati alla natura.</h2>
+          </div>
+          <div
+            class="card-grid card-grid--six flavors-grid"
+            data-component="flavors"
+            aria-label="Gusti"
+          ></div>
+          <a class="section-link" href="#contact">Vedi tutti i gusti</a>
+        </section>
+
+        <section class="experience section reveal" id="experience">
+          <div class="section-kicker section-kicker--center">ESPERIENZA FAUNATUNA</div>
+          <div class="section-title section-title--center">
+            <h2>Un’esperienza naturale e accogliente.</h2>
+          </div>
+          <div
+            class="card-grid card-grid--four experience-grid"
+            data-component="experience"
+            aria-label="Esperienza"
+          ></div>
+          <p class="experience__caption">
+            Dai nostri ingredienti alla tua coppetta, ogni dettaglio racconta il
+            nostro impegno per un gelato buono, autentico e rispettoso della
+            natura.
+          </p>
+        </section>
+
+        <section class="gallery section reveal" id="gallery">
+          <div class="section-kicker section-kicker--center">GALLERY</div>
+          <div class="section-title section-title--center">
+            <h2>Dove la natura diventa gelato.</h2>
+          </div>
+          <div class="gallery-grid" data-component="gallery" aria-label="Gallery"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer section" id="contact">
+        <div class="site-footer__brand">
+          <h3>Faunatuna</h3>
+          <p>Gelato Artigianale</p>
+          <p>Natura · Piacere · Artigianalità</p>
+        </div>
+        <div class="site-footer__nav">
+          <a href="#story">Filosofia</a>
+          <a href="#ingredients">Ingredienti</a>
+          <a href="#flavors">Gusti</a>
+          <a href="#experience">Esperienza</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contatti</a>
+        </div>
+        <div class="site-footer__contact">
+          <p>Torino, Italia</p>
+          <p>info@faunatuna.it</p>
+          <p>@faunatuna.gelato</p>
+          <p>Lun - Dom 11:00 - 21:00</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/content.js?v=8"></script>
+    <script src="./js/script.js?v=8"></script>
+  </body>
+</html>
